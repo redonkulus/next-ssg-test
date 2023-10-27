@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -30,6 +31,7 @@ export default function Home() {
               priority
             />
           </a>
+          <Link href="/foo">Foo</Link>
         </div>
       </div>
 
